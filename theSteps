@@ -1,0 +1,22 @@
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] -> Binary Search Tree
+// root = x, right side of the root = y, left side of the root = z.
+
+level 0 => root = 7
+level 1 => z1 = 5, y1 = 8 --> (5) and (8) are siblings and children of (7), also (7) is the parent of them.
+level 2 => z2 = 1, z2y = 6, y2 = 9
+level 3 => z3 = 0, z3y = 3
+level 4 => z3yz = 2, z3yy = 4
+
+
+        --- BINARY SEARCH TREE ---
+        
+                    7
+                  /  \
+                5     8
+               / \     \
+             1    6     9  
+           /   \
+          0     3
+               / \
+              2   4
+      
